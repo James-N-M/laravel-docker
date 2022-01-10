@@ -17,7 +17,7 @@ services:
     - 3306:3306
   environment: 
     MYSQL_DATABASE: laravel
-    MYSQL_USER:laravel
+    MYSQL_USER: laravel
     MYSQL_PASSWORD: secret
     MYSQL_ROOT_PASSWORD: secret
   volumes:
